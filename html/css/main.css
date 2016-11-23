@@ -1,0 +1,112 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 23, 2016, 9:32:54 PM
+    Author     : michael
+*/
+
+body {
+    padding-top: 70px;
+}
+a{
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+}
+.navbar-default{
+    background-color: white;
+    border: none;
+}
+.logo{
+    font-size: 35px;
+    line-height: 26px;
+    padding: 10px 0;
+    display: inline-block;
+}
+.logo .des{
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+.activePage,.current_page_item {
+    border-top: 3px solid #990000;
+
+}
+.current_page_item a{
+    color: #990000;  
+}
+.mainMenu ul{
+    text-transform: uppercase;
+    margin: 0 30%;
+    padding: 0;
+}
+.mainMenu li{
+    display: inline-block;
+    padding: 24px 0 0;
+    margin: 0 7%;
+}
+.mainMenu li:hover{
+    border-top: 3px solid #990000;
+}
+.wrapLang{
+    /*margin-top: 45px;*/
+}
+.red{
+    color: #990000 !important;
+}
+a.red{
+    text-decoration: underline;
+}
+main{
+    margin-top: 140px;
+}
+
+h1{
+    font-size: 60px;
+}
+.textHome{
+    font-size: 24px;
+}
+footer{
+margin-top: 100px;
+}
+.lineFooter{
+    margin-bottom: 30px;
+    border-top: 1px solid #333333;
+    width: 150px
+}
+
+@media (min-width: 1200px){
+    .container {
+        width: 1200px;
+    }
+
+}
+@media (max-width:1200px){
+    .mainMenu li{
+        padding: 24px 0;
+        margin: 0 2%;
+    }
+}
+@media (max-width:768px){
+    .mainMenu ul{
+        margin: 0;
+    }
+    .mainMenu li{
+        padding:  0;
+        margin: 0 ;
+        display: block;
+        text-align: right;
+    }
+    .activePage,.current_page_item {
+        border-top: none;
+
+    }
+    .mainMenu li:hover{
+        border-top: none;
+    }
+
+}
