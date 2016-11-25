@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e2d6a59c-143d-4ddf-9376-922a07e0603f" name="ponta" url="http://ponta.at">
+        <fileTransfer host="web17.red.stuon.com" port="21" rootFolder="/html/ponta-new">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
