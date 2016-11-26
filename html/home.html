@@ -86,7 +86,7 @@ and open the template in the editor.
                 <h1>Klein und <span class="dynamicText">...</span></h1>
                 <p class="space-64 visible-md  visible-lg"></p>
                 <p class="space-32 visible-xs visible-sm"></p>
-                <div class="collapse">
+                <div class="collapse collapseText">
                     <p class="textHome">Hi, wir sind OliviaPonta Werbeagentur aus
                         Kärnten und wir konzipieren, gestalten und entwickeln digitale 
                         Kommunikation für unsere Kunden.
@@ -110,14 +110,14 @@ and open the template in the editor.
             <div class="container">
                 <div class="lineFooter"></div>
                 <div class="clearfix">
-                    <div class="pull-left contactInfo">
+                    <div class="contactInfo">
                         <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
                         <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
                         <span>+43 664 8228888 | </span>
                         <a href="mailto:info@ponta.at" target="_top">info@ponta.at</a>
                     </div>
 
-                    <ul id="menu-test" class="menu-footer pull-right">
+                    <ul id="menu-test" class="menuFooter">
                         <li id="menu-item-6" class="">
                             <a href="http://example.com/">Impressum</a>
                         </li>
@@ -149,7 +149,7 @@ and open the template in the editor.
                             jQuery(".dynamicText").html(arrText[i])
                             i++;
                         } else {
-                            jQuery('.collapse').collapse()
+                            jQuery('.collapseText').collapse()
                         }
                     }, 500);
 
