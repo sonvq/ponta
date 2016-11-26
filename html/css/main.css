@@ -49,13 +49,7 @@ p{
     font-size: 15px;
     letter-spacing: 5px;
 }
-.activePage,.current_page_item {
-    border-top: 3px solid #990000;
 
-}
-.current_page_item a{
-    color: #990000;  
-}
 .mainMenu ul{
     text-transform: uppercase;
     /*margin: 0 30%;*/
@@ -67,6 +61,7 @@ p{
     padding: 24px 0 0;
     margin: 0 4%;
     font-weight: 700;
+    border-top: 3px solid transparent; 
 }
 .mainMenu li:hover{
     border-top: 3px solid #990000;
@@ -74,11 +69,19 @@ p{
 .wrapLang{
     font-weight: 700;
 }
+
 .red{
     color: #990000 !important;
 }
 a.red{
     text-decoration: underline;
+}
+.activePage,.mainMenu  .current_page_item {
+    border-top: 3px solid #990000;
+
+}
+.current_page_item a{
+    color: #990000;  
 }
 main{
     margin-top: 120px;
