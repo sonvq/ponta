@@ -31,12 +31,17 @@ a:hover{
     text-decoration: none;
 }
 p{
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Merriweather', serif;
 }
 .navbar-default{
     background-color: white;
     border: none;
     padding: 0 15px;
+}
+.navbarBoder{
+    -webkit-box-shadow: 1px 10px 17px -1px rgba(219,219,219,1);
+    -moz-box-shadow: 1px 10px 17px -1px rgba(219,219,219,1);
+    box-shadow: 1px 10px 17px -1px rgba(219,219,219,1);
 }
 .logo{
     font-size: 35px;
@@ -84,37 +89,40 @@ a.red{
     color: #990000;  
 }
 main{
-    margin-top: 120px;
+    margin-top: 105px;
     padding-bottom: 100px;
 }
 
 h1{
     font-size: 60px;
     font-family: 'Lato', sans-serif;
+    font-weight: 700;
     /*margin-bottom: 32px;*/
 }
 h2{
     font-size: 36px;
+    font-weight: 700;
 }
 small{
     font-size: 16px;
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Merriweather', serif;
 }
 .breadcrumb{
     padding: 10px 0;
     background-color:transparent;
     margin-bottom: 30px;
+    margin-top: 5px;
 }
 .breadcrumb  span{
     margin-right: 10px;
     margin-left: 10px;
     text-decoration: underline;
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Merriweather', serif;
     cursor: pointer;
 
 }
 .breadcrumb  a{
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Merriweather', serif;
     cursor: pointer;
 }
 .breadcrumb .dropdown{
@@ -133,6 +141,13 @@ small{
 .textHome{
     font-size: 24px;
 }
+.collapseText{
+    opacity: 0;
+    -moz-transition: all 1s ease-out;  /* FF4+ */
+    -o-transition: all 1s ease-out;  /* Opera 10.5+ */
+    -webkit-transition: all 1s ease-out;  /* Saf3.2+, Chrome */
+    -ms-transition: all 2s ease-out; 
+}
 .space-64{
     height: 64px;
 }
@@ -143,7 +158,7 @@ footer{
     margin-top: 100px;
     font-size: 14px;
     padding-bottom: 50px;
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Merriweather', serif;
 }
 .lineFooter{
     margin-bottom: 30px;
@@ -162,7 +177,7 @@ footer{
 }
 .contactInfo{
     float: left;
-    /*font-family: 'Merriweather Sans', sans-serif;*/
+    /*font-family: 'Merriweather', serif;*/
 }
 .contactInfo i{
     font-size: 18px;
@@ -170,7 +185,39 @@ footer{
 .menuFooter{
     float:right;
 }
+/*wws page*/
+.imgWws{
+    margin: 27px 0 15px 0 ;
+}
+figcaption{
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    line-height: 34px;
+}
+#wws section{
+    margin-bottom: 150px;
 
+}
+.font36{
+    font-size: 36px;
+}
+#wws .textHome{
+    margin-bottom: 30px;
+}
+#commentShow figure{
+    text-align: center;
+    margin: 50px 0 5px;
+}
+#commentShow figcaption{
+    height: 133px;
+    overflow: hidden;
+}
+#wws #commentShow{
+    margin-bottom: 40px;
+}
+/*#commentShow figcaption{
+    text-align: left;
+}*/
 @media (min-width: 1200px){
     .container {
         width: 1200px;
@@ -231,6 +278,15 @@ footer{
         border-top: none;
 
     }
+    h2 {
+        font-size: 26px;
+    }
+    figcaption{
+        font-size: 14px;
+    }
+    #wws section{
+        margin-bottom: 100px;
+    }
 
 
 }
@@ -246,5 +302,20 @@ footer{
     .menuFooter li{
         margin: 0 22px 0 0;
 
+    }
+    h2 {
+        font-size: 20px;
+    }
+    figcaption{
+        font-size: 12px;
+    }
+    #wws section{
+        margin-bottom: 70px;
+    }
+    #commentShow figure {
+        margin: 20px 0 5px;
+    }
+    .font36{
+        font-size: 26px;
     }
 }

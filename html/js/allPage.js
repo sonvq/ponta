@@ -4,4 +4,11 @@
  * and open the template in the editor.
  */
 
-
+$(window).scroll(function (event) {
+    var scroll = $(window).scrollTop();
+    if (scroll > 0) {
+        jQuery(".navbar-fixed-top").addClass('navbarBoder')
+    } else {
+        jQuery(".navbar-fixed-top").removeClass('navbarBoder')
+    }
+});
