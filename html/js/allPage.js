@@ -7,8 +7,8 @@
 $(window).scroll(function (event) {
     var scroll = $(window).scrollTop();
     if (scroll > 0) {
-        jQuery(".navbar-fixed-top").addClass('navbarBoder')
+        jQuery(".navbar-fixed-top").addClass('is-scrolled')
     } else {
-        jQuery(".navbar-fixed-top").removeClass('navbarBoder')
+        jQuery(".navbar-fixed-top").removeClass('is-scrolled')
     }
 });
