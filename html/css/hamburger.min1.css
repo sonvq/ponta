@@ -4,9 +4,6 @@
 .navbar-toggle{
     border-radius: 0;
 }
-.navbar-collapse {
-    border-top: none;
-}
 /*end overide*/
 .c-hamburger {
     display: block;
@@ -14,8 +11,8 @@
     overflow: hidden;
     margin: 10px 0 0;
     padding: 0;
-    width: 48px;
-    height: 48px;
+    width: 58px;
+    height: 58px;
     font-size: 0;
     text-indent: -9999px;
     -webkit-appearance: none;
@@ -34,9 +31,9 @@
 .c-hamburger span {
     display: block;
     position: absolute;
-    top: 20px; 
-    width: 48px;
-    height: 9px;
+    top: 23px; 
+    width: 58px;
+    height: 11px;
     background: black
 }
 .c-hamburger span::after,
@@ -45,7 +42,7 @@
     display: block;
     left: 0;
     width: 100%;
-    height: 9px;
+    height: 11px;
     background-color: black;
     content: ""
 }
@@ -56,10 +53,10 @@
     width: 50%
 }
 .c-hamburger span::before {
-    top: -19px
+    top: -23px
 }
 .c-hamburger span::after {
-    bottom: -19px
+    bottom: -23px
 }
 /*.c-hamburger--rot {
     background-color: #28aadc
