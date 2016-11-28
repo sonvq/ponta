@@ -118,6 +118,7 @@ small{
     text-decoration: underline;
     font-family: 'Merriweather', serif;
     cursor: pointer;
+    font-size: 16px;
 
 }
 .breadcrumb  a{
@@ -213,6 +214,11 @@ figcaption{
 }
 #wws #commentShow{
     margin-bottom: 40px;
+}
+/*//overide*/
+.dropdown-menu > li > a {
+    line-height: 31px;
+    font-size: 16px;
 }
 /*#commentShow figcaption{
     text-align: left;
