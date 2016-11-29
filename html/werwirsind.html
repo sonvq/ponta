@@ -14,6 +14,7 @@ and open the template in the editor.
         <link href="css/main.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+        <link href="css/hamburger.min.css" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -22,14 +23,12 @@ and open the template in the editor.
             <nav class="navbar navbar-default  navbar-fixed-top">
                 <div class="container clearfix">
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" 
-                                data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
+                        <button class="navbar-toggle collapsed c-hamburger c-hamburger--htx"
+                                data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"
+                                >
+                            <span>toggle menu</span>
                         </button>
-                        <a class="navbar-brand1 logo activePage" href="#">
+                        <a class="navbar-brand1 logo " href="#">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="160" height="38" enable-background="new 0 0 1920 1085.79" xml:space="preserve"><rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none" stroke="none"/>
 
                             <g class="currentLayer"><title>Layer 1</title><g xmlns="http://www.w3.org/2000/svg" id="Logo_1_" class="">
@@ -67,7 +66,7 @@ and open the template in the editor.
                     </div>
                     <div id="navbar" class="mainMenu navbar-collapse collapse">
                         <ul id="menu-test" class="menu">
-                            <li id="menu-item-6" class="">
+                            <li id="menu-item-6" class="current_page_item">
                                 <a href="http://example.com/">AGENTUR</a>
                             </li>
                             <li id="menu-item-7" class=""><a href="http://example.com/demos/">WAS WIR TUN</a></li>
@@ -87,7 +86,8 @@ and open the template in the editor.
                 <section>
                     <h2 class="text-center">WER WIR SIND</h2>
                     <figure>
-                        <img class="imgWws img-responsive" src="img/img1.jpg">
+                        <img class="imgWwsNormal img-responsive" src="img/img1.jpg">
+
                         <figcaption>
                             <div class="row">
                                 <div class="col-md-offset-2 col-md-8">
@@ -102,7 +102,7 @@ and open the template in the editor.
                 <section>
                     <h2 class="text-center">UNSERE MISSION</h2>
                     <figure>
-                        <img class="imgWws img-responsive" src="img/img2.jpg">
+                        <div class="imgWws imgWws2"></div>
                         <figcaption>
                             <div class="row">
                                 <div class="col-md-offset-2 col-md-8">
@@ -116,7 +116,7 @@ and open the template in the editor.
                 <section>
                     <h2 class="text-center">SUBSTANZ STATT EFFEKTE</h2>
                     <figure>
-                        <img class="imgWws img-responsive" src="img/img3.jpg">
+                        <div class="imgWws imgWws3"></div>
                         <figcaption>
                             <div class="row">
                                 <div class="col-md-offset-2 col-md-8">
@@ -135,7 +135,7 @@ and open the template in the editor.
                 <section>
                     <h2 class="text-center">SUBSTANZ STATT EFFEKTE</h2>
                     <figure>
-                        <img class="imgWws img-responsive" src="img/img4.jpg">
+                        <div class="imgWws imgWws4"></div>
                         <figcaption>
                             <div class="row">
                                 <div class="col-md-offset-2 col-md-8">
@@ -170,7 +170,7 @@ and open the template in the editor.
                     <div class="row">
                         <div class="col-md-4">
                             <figure>
-                                <img class="imgWws img-circle" src="img/avt1.jpg">
+                                <img class="imgWwsNormal img-circle" src="img/avt1.jpg">
                                 <figcaption>
 
                                     Wir glauben an harte, ehrliche Arbeit.
@@ -182,7 +182,7 @@ and open the template in the editor.
                         </div>
                         <div class="col-md-4">
                             <figure>
-                                <img class="imgWws img-circle" src="img/avt1.jpg">
+                                <img class="imgWwsNormal img-circle" src="img/avt1.jpg">
                                 <figcaption>
                                     Alexander Windbichler, ANEXIA - „Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
                                     sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
@@ -192,7 +192,7 @@ and open the template in the editor.
                         </div>
                         <div class="col-md-4">
                             <figure>
-                                <img class="imgWws img-circle" src="img/avt1.jpg">
+                                <img class="imgWwsNormal img-circle" src="img/avt1.jpg">
                                 <figcaption>
 
                                     Wir glauben an harte, ehrliche Arbeit.
@@ -204,7 +204,7 @@ and open the template in the editor.
                         </div>
                         <div class="col-md-4">
                             <figure>
-                                <img class="imgWws img-circle" src="img/avt1.jpg">
+                                <img class="imgWwsNormal img-circle" src="img/avt1.jpg">
                                 <figcaption>
 
                                     Wir glauben an harte, ehrliche Arbeit.

@@ -186,8 +186,24 @@ footer{
     float:right;
 }
 /*wws page*/
+.imgWwsNormal{
+    margin: 27px 0 15px 0 ;
+}
 .imgWws{
     margin: 27px 0 15px 0 ;
+    display: block;
+    width: 100%;
+    height: 237px;
+    padding: 0;
+}
+.imgWws2{
+    background: url('../img/img2.jpg') no-repeat center center;
+}
+.imgWws3{
+    background: url('../img/img3.jpg') no-repeat center center;
+}
+.imgWws4{
+    background: url('../img/img4.jpg') no-repeat center center;
 }
 figcaption{
     font-family: 'Merriweather', serif;
@@ -297,10 +313,10 @@ figcaption{
     #wws section{
         margin-bottom: 100px;
     }
-/*    .navbar-fixed-top{
-        -webkit-box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06),0 4px 5px 0 rgba(0,0,0,0.06),0 1px 10px 0 rgba(0,0,0,0.08);
-        box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06),0 4px 5px 0 rgba(0,0,0,0.06),0 1px 10px 0 rgba(0,0,0,0.08);
-    }*/
+   .imgWws{
+        height: 190px;
+        background-size: cover;
+    }
 
 
 
@@ -332,5 +348,9 @@ figcaption{
     }
     .font36{
         font-size: 26px;
+    }
+    .imgWws{
+        height: 150px;
+        background-size: cover;
     }
 }
