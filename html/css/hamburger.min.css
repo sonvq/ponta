@@ -12,10 +12,10 @@
     display: block;
     position: relative;
     overflow: hidden;
-    margin: 10px 0 0;
+    margin: 22px 0 0;
     padding: 0;
-    width: 48px;
-    height: 48px;
+    width: 25px;
+    height: 25px;
     font-size: 0;
     text-indent: -9999px;
     -webkit-appearance: none;
@@ -34,9 +34,9 @@
 .c-hamburger span {
     display: block;
     position: absolute;
-    top: 20px; 
-    width: 48px;
-    height: 9px;
+    top: 10px; 
+    width: 25px;
+    height: 5px;
     background: black
 }
 .c-hamburger span::after,
@@ -45,7 +45,7 @@
     display: block;
     left: 0;
     width: 100%;
-    height: 9px;
+    height: 5px;
     background-color: black;
     content: ""
 }
@@ -56,10 +56,10 @@
     width: 50%
 }
 .c-hamburger span::before {
-    top: -19px
+    top: -10px
 }
 .c-hamburger span::after {
-    bottom: -19px
+    bottom: -10px
 }
 /*.c-hamburger--rot {
     background-color: #28aadc
@@ -124,7 +124,7 @@
 
 @media (min-width:768px){
     .c-hamburger{
-        /*display: none;*/
+        display: none;
     }
 
 }
