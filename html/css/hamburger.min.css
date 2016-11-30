@@ -124,7 +124,7 @@
 
 @media (min-width:768px){
     .c-hamburger{
-        /*display: none;*/
+        display: none;
     }
 
 }
