@@ -110,12 +110,12 @@ and open the template in the editor.
 
                         </a>
                     </div>
-                     <div id="navbar" class="mainMenu navbar-collapse collapse">
+                    <div id="navbar" class="mainMenu navbar-collapse collapse">
                         <ul id="menu-test" class="menu">
                             <li id="menu-item-6" class="">
                                 <a href="agentur.html">AGENTUR</a>
                             </li>
-                            <li id="menu-item-7" class="">
+                            <li id="menu-item-7" class="current_page_item">
                                 <a href="warwirtun.html">WAS WIR TUN</a></li>
                             <li id="menu-item-8" class="">
                                 <a href="kontakt.html">KONTAKT</a></li>
@@ -131,27 +131,9 @@ and open the template in the editor.
         </header>
         <main>
             <div class="container">
-                <h1>Klein und <span class="dynamicText"></span></h1>
-                <p class="space-64 visible-md  visible-lg"></p>
-                <p class="space-32 visible-xs visible-sm"></p>
-                <div class=" collapseText">
-                    <p class="textHome">Hi, wir sind OliviaPonta Werbeagentur aus
-                        Kärnten und wir konzipieren, gestalten und entwickeln digitale 
-                        Kommunikation für unsere Kunden.
-                    </p>
-                    <p class="space-64 visible-md  visible-lg"></p>
-                    <p class="space-32 visible-xs visible-sm"></p>
-
-                    <p class="textHome">
-                        <a href="#" class="red">Mehr über uns </a>
-                    </p>
-                    <p class="textHome ">
-                        <a href="#" class="red">Das haben wir bereits gemacht </a>
-                    </p>
-                    <p class="textHome red">
-                        <a href="#" class="red">Kontakt </a>
-                    </p>
-                </div>
+                <h2>WIR GEBEN 100%. IMMER.</h2>
+               
+                
             </div>
         </main>
         <footer>
@@ -178,30 +160,7 @@ and open the template in the editor.
         <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/allPage.js"></script>
-        <script>
-
-            var arrText = ['leistungsfähig', 'leistungwillig', 'pragmatisch', 'commited',
-                'strategisch', 'beweglich', 'kreativ', 'schnell', 'oho'
-            ];
-            var dot = ['.', '..', '...'];
-            let maxLeng = arrText.length
-            let
-            i = 0;
-            let
-            j = 0;
-            setInterval(function () {
-                if (j < 3) {
-                    jQuery(".dynamicText").html(dot[j])
-                    j++;
-                } else if (i <= maxLeng) {
-                    jQuery(".dynamicText").html(arrText[i])
-                    i++;
-                } else {
-                    jQuery('.collapseText').css('opacity', '1')
-                }
-            }, 500);
-
-        </script>
+        
         <script>
            
         </script>

@@ -102,6 +102,10 @@ h2{
     font-size: 36px;
     font-weight: 900;
 }
+h3{
+    font-size: 20px;
+    font-weight: 700;
+}
 small{
     font-size: 16px;
     font-family: 'Merriweather', serif;
@@ -236,6 +240,40 @@ figcaption{
     line-height: 31px;
     font-size: 16px;
 }
+/*kontakk*/
+.banner{
+    padding: 30px 0 25px;
+}
+.underline {
+    text-decoration: underline
+}
+.colorLink{
+    color: #003366;
+}
+.font16{
+    font-size: 16px;
+}
+.text-contact{
+    line-height: 33px;
+    font-size: 16px;
+    margin-top: 19px;
+}
+.kontakt img{
+    margin-bottom: 10px;
+}
+
+.iconInbox{
+    margin-top: 10px;
+}
+#kontakt section{
+    margin-bottom: 60px;
+}
+.text-notice{
+    margin: 87px 0 120px;
+}
+/*#kontakt .kontakt{
+    margin-bottom: 84px;
+}*/
 /*#commentShow figcaption{
     text-align: left;
 }*/
@@ -313,9 +351,26 @@ figcaption{
     #wws section{
         margin-bottom: 100px;
     }
-   .imgWws{
+    .imgWws{
         height: 190px;
         background-size: cover;
+    }
+    .kontakt .item{
+        margin-bottom: 50px;
+    }
+    .kontakt img {
+        margin-bottom: 0px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    .text-notice {
+        margin: 40px 0 60px;
+    }
+    .text-contact {
+        line-height: 26px;
+        font-size: 14px;
+        margin-top: 15px;
     }
 
 
