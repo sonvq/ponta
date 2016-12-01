@@ -25,7 +25,7 @@ footer{
 }
 
 a{
-    color: black;
+    color: black !important;
 }
 a:hover{
     text-decoration: none;
@@ -124,6 +124,23 @@ small{
     cursor: pointer;
     font-size: 16px;
 
+}
+.circularWrap {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.circularWrap img {
+    width: auto;
+    height: 100%;
+    /*margin-left: -50px;*/
+}
+.img-circle{
+    width: 150px;
+    height: 150px;
 }
 .breadcrumb  a{
     font-family: 'Merriweather', serif;
@@ -236,10 +253,7 @@ footer{
     text-align: center;
     margin: 50px 0 5px;
 }
-#commentShow figcaption{
-    height: 133px;
-    overflow: hidden;
-}
+
 #wws #commentShow{
     margin-bottom: 40px;
 }
@@ -262,8 +276,8 @@ footer{
     font-size: 16px;
 }
 .text-contact{
-/*    line-height: 33px;
-    font-size: 16px;*/
+    /*    line-height: 33px;
+        font-size: 16px;*/
     margin-top: 19px;
 }
 .kontakt img{
@@ -310,6 +324,10 @@ footer{
     .mainMenu li {
         border-top: 3px solid transparent;
     }
+    #commentShow figcaption{
+    height: 446px;
+    overflow: hidden;
+}
 
 }
 @media (max-width:768px){
@@ -353,9 +371,9 @@ footer{
     h2 {
         font-size: 26px;
     }
-/*    figcaption{
-        font-size: 14px;
-    }*/
+    /*    figcaption{
+            font-size: 14px;
+        }*/
     font16{
         font-size: 14px;
     }
@@ -379,8 +397,8 @@ footer{
         margin: 40px 0 60px;
     }
     .text-contact {
-/*        line-height: 26px;
-        font-size: 14px;*/
+        /*        line-height: 26px;
+                font-size: 14px;*/
         margin-top: 15px;
     }
 
