@@ -25,7 +25,7 @@ footer{
 }
 
 a{
-    color: black !important;
+    color: black ;
 }
 a:hover{
     text-decoration: none;
@@ -245,6 +245,7 @@ footer{
 }
 .fontLight{
     font-weight: 300;
+    color: #575756;
 }
 #wws .textHome{
     margin-bottom: 30px;
