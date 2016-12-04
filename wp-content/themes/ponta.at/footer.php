@@ -11,16 +11,27 @@
 
 ?>
 
-	</div><!-- #content -->
+<footer>
+	<div class="container">
+		<div class="lineFooter"></div>
+		<div class="clearfix">
+			<div class="contactInfo">
+				<a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+				<span>+43 664 8228888 | </span>
+				<a href="mailto:info@ponta.at" target="_top">info@ponta.at</a>
+			</div>
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'ponta-at' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'ponta-at' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'ponta-at' ), 'ponta-at', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+			<ul id="menu-test" class="menuFooter">
+				<li id="menu-item-6" class="">
+					<a href="http://example.com/">Impressum</a>
+				</li>
+				<li id="menu-item-7" class=""><a href="http://example.com/demos/">Kontakt</a></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+
 
 <?php wp_footer(); ?>
 

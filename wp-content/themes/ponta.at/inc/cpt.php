@@ -59,6 +59,10 @@ function create_portfolio_tax() {
         'show_admin_column' => true,
         'query_var'         => true,
         'rewrite'           => array( 'slug' => 'portfolio_category' ),
+        'show_in_nav_menus' => true,
+        'publicly_queryable' => true,
+        'exclude_from_search' => false,
+        'has_archive' => true,
     );
 
     register_taxonomy( 'portfolio_category', array( 'portfolio' ), $args );

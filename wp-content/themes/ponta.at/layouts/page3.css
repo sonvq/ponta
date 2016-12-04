@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 26, 2016, 2:29:56 PM
+    Author     : michael
+*/
+.block {
+    width: 100%;
+    background: #ccc;
+    margin: 15px 0;
+    position: relative;
+    /*height: 100px;*/
+    
+}
+.block img{
+    width: 100%;
+    cursor: pointer;
+   -moz-transition: opacity 1s; /* Firefox */
+    -webkit-transition: opacity 1s; /* Safari and Chrome */
+    -o-transition: opacity 1s; /* Opera */
+    transition: opacity 1s;
+}
+.block img:first-child{
+     z-index: 1;
+}
+.block img:last-child{
+    position: absolute;
+    top: 0;
+    opacity: 0;
+     z-index: 2;
+}
+.block:hover img {
+    opacity: 1;
+}
+.block-special{
+    
+}
+@media(max-width:1200px) and (min-width:991px){
+    .block-special{
+        height: 408px;
+        background: transparent;
+    }
+}
+/*.block1{
+    height: 360px;
+}
+.block2{
+    height: 500px;
+}*/
