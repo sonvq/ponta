@@ -14,19 +14,25 @@ while (have_posts()): the_post();
 
             <?php
             $taxs = get_terms('portfolio_category', array('parent' => 0));
+            $childTaxs = get_terms('portfolio_category', array('parent' => 2,));
+
             foreach ($taxs as $tax):
                 ?>
                 <div>
                     <h3><?php echo $tax->name ?></h3>
                     <p class="font16">
                         <?php
-                        $childTaxs = get_terms('portfolio_category', array('parent' => $tax->term_id));
-                        var_dump($childTaxs);
+                        $childTaxs = get_terms('portfolio_category', array('parent' => $tax->term_id, 'hide_empty' => 0));
+                        if (count($childTaxs) > 0) {
                         foreach ($childTaxs as $childTax):?>
-                            <a href="<?php echo get_permalink($childTax->term_id) ?>" class="underline red">
+                            <a href="<?php echo get_term_link($childTax) ?>" class="underline red">
                                 <?php echo $childTax->name ?>
                             </a>
-                        <?php endforeach; ?>
+                        <?php endforeach;
+                        } else {
+                            echo '---';
+
+                        } ?>
                     </p>
                     <br>
                 </div>
