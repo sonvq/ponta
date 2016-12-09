@@ -278,9 +278,7 @@ footer{
 .colorLink{
     color: #003366;
 }
-.font16{
-    font-size: 16px;
-}
+
 .text-contact{
     /*    line-height: 33px;
         font-size: 16px;*/
@@ -345,7 +343,7 @@ footer{
     h1{
         font-size: 40px;
     }
-    p,.textHome{
+    .textHome{
         font-size: 18px;
     }
 
@@ -380,7 +378,7 @@ footer{
     /*    figcaption{
             font-size: 14px;
         }*/
-    font16{
+    .font16{
         font-size: 14px;
     }
     #wws section{
@@ -427,7 +425,7 @@ footer{
     h2 {
         font-size: 20px;
     }
-    font16{
+    .font16{
         font-size: 12px;
     }
     #wws section{
