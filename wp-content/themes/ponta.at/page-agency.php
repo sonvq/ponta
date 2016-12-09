@@ -7,15 +7,17 @@ while (have_posts()): the_post();
     ?>
     <main id="wws">
         <div class="container">
-            <?php $items = get_field('items');
+            <?php
+            $items = get_field('items');
             foreach ($items as $item):
                 ?>
                 <section>
                     <h2 class="text-center"><?php echo $item['title'] ?></h2>
+
                     <figure>
                         <?php $img = $item['image'] ?>
-                        <img class="imgWwsNormal img-responsive" src="<?php echo $img['url'] ?>">
-
+                        <!--<img class="imgWwsNormal img-responsive" src="<?php echo $img['url'] ?>">-->
+                        <div class="imgWws imgWwsClip" style="background: url('<?php echo $img['url'] ?>') "></div>
                         <figcaption class="font16 fontLight">
                             <div class="row">
                                 <div class="col-md-offset-2 col-md-8">
@@ -51,7 +53,8 @@ while (have_posts()): the_post();
             <section id="commentShow">
                 <h2 class="text-center">WAS UNSERE KUNDEN AN UNS SCHÄTZEN</h2>
                 <div class="row">
-                    <?php $customers = get_field('customer');
+                    <?php
+                    $customers = get_field('customer');
                     foreach ($customers as $customer):
                         ?>
                         <div class="col-md-4 col-sm-6">

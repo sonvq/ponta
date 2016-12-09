@@ -20,13 +20,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'usr_web17_2');
+define('DB_NAME', 'ponta');
 
 /** MySQL database username */
-define('DB_USER', 'web17');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', '4l6xZXwd');
+define('DB_PASSWORD', '');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -37,6 +37,8 @@ define('DB_CHARSET', 'utf8');
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
 
+define('WP_HOME','http://localhost/ponta/');
+define('WP_SITEURL','http://localhost/ponta/');
 /**#@+
  * Authentication Unique Keys and Salts.
  *

@@ -6,7 +6,7 @@
  *
  * @package Ponta.at
  */
-
+show_admin_bar(false);
 if (!function_exists('ponta_at_setup')) :
     /**
      * Sets up theme defaults and registers support for various WordPress features.
@@ -172,3 +172,5 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+define('PAGE_HOME', 107);
